@@ -1,0 +1,54 @@
+<h2 id = 'header'>To-Do Task Management</h2>
+<hr>
+<ul>
+    <li><a href="../core/home.php">Home</a></li>
+    <li><a href="../core/logout.php">Logout</a></li>
+    <li><a href="../core/changepassword.php">Change Password</a></li>
+    <li><a href="../core/deleteaccount.php">Delete Account</a></li>
+    <li style="float: right;" ><span id="username"></span></li>
+</ul>
+
+<style>
+        #header {
+        font-size: 30px;
+        font-family:'exo2',georgia,garamond,serif;
+        font-weight: 700;
+        line-height: 30px;
+        text-align: center;
+        margin-top: 70px;
+        }
+        hr{
+        border: 2px;
+        border-style: solid;
+        width: 80%;
+        align-self: center;
+        }
+        ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+        }
+
+        li {
+        float: left;
+        }
+
+        li a, span {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        }
+
+        /* Change the link color to #111 (black) on hover */
+        li a:hover:not(.active) {
+        background-color: #111;
+        }
+
+        .active {
+        background-color: #50b6ff;
+        }
+</style>

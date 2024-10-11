@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Task</title>
+    <link rel="stylesheet" href="../styles/style.css">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #f7f7f7;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Including content of header.html file -->
+    <nav class="header"></nav>
+
+    </br>
+
+    <!-- form to get details for new task -->
+    <div class="task-container">
+        <h4>Add a New Task</h4>
+        <form class="task-form" method="post">
+            <input type="text" placeholder="Task name" name="task-name" required autofocus>
+            <button type="submit" name="add-task">Add</button>
+        </form>
+    </div>
+
+    <center><button class="back-button" type="link" onclick="location.href='todo.php'">Go Back</button></center>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
